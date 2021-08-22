@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RedStore | Ecommerce site</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta lang="en">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="./images/logo.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="menuItems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <div class="cart">
+                        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                    <a href="#" class="menu-icon" onclick="menuToggle()"><i class="fa fa-bars"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>CSS is the language<br> we use to style a Web page.</h1>
+                        <p>
+                            What is CSS?
+                            CSS stands for Cascading Style Sheets<br>
+                            CSS describes how HTML elements are to be displayed on screen, paper, or in other media<br>
+                            CSS saves a lot of work. It can control the layout of multiple web pages all at once<br>
+                            External stylesheets are stored in CSS files
+                        </p>
+                        <a href="#" class="btn">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/image102.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------ category ------- -->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./images/cat1.jfif">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/cat4.jfif">
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/book8.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -------- Products --------- -->
+        <div class="small-container">
+            <h1 class="title">Feature Products</h1>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/cat1.jfif"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/cat2.jfif"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/book1.png"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/cat3.jfif"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+            </div>
+            <h1 class="title">Latest Products</h1>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/book3.png"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/cat4.jfif"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/book7.png"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="product.details.html"><img src="./images/cat2.jfif"></a>
+                    <a href="product.details.html"><h4>Product name</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------- offer ---------- -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="product.details.html"><img class="offer-img" src="./images/book7.png" width="150px" height="400px"></a>
+                    </div>
+                    <div class="col-2">
+                        <p>Tradition since 1889</p>
+                        <h1>About Catering</h1>
+                        <small>
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+                            sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </small>
+                        <br>
+                        <a href="#" class="btn">Buy New &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -----------testimonials------------- -->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="./images/avatar1.png">
+                        <h3>user name</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="./images/avatar2.png">
+                        <h3>user name</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                            ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="./images/avatar3.png">
+                        <h3>user name</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -----------brands-------------->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="./images/hp.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/apple.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/htc.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/acer.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="./images/samsung.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------footer-------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App For Android and ios Mobile Phone</p>
+                        <div class="app-logo">
+                            <img src="./images/app-store3.png">
+                            <img src="./images/google-store3.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./images/logo.png">
+                        <p>While using this site, you agree to have read and accepted <br>our terms of use, 
+                            cookie and privacy policy. 
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Usefull links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 Reseved to RedStore</p>
+            </div>
+        </div>
+
+
+        <!--------------script for toggle menu-------------->
+        <script>
+            var menuItems=document.getElementById("menuItems");
+            menuItems.style.maxHeight="0px";
+
+            function menuToggle(){
+                if(menuItems.style.maxHeight=="0px")
+                {
+                    menuItems.style.maxHeight="200px";
+                }else{
+                    menuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
